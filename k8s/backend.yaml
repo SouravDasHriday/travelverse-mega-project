@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: YOUR_DOCKERHUB_USERNAME/travelverse-backend:latest
+          image: souravdasdocker/travelverse-backend:latest
           ports:
             - containerPort: 5000
           env:
