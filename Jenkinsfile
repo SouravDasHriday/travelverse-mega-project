@@ -3,10 +3,6 @@ pipeline {
         label 'Worker'
     }
     
-    tools {
-        jdk 'jdk17'
-    }
-    
     environment {
         DOCKER_CREDS = credentials('dockerhub')
         SONAR_SCANNER_HOME = tool 'sonar-scanner'
