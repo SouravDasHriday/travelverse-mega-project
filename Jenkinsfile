@@ -34,8 +34,7 @@ pipeline {
                     sh '''
                         $SONAR_SCANNER_HOME/bin/sonar-scanner \
                         -Dsonar.projectKey=TravelVerse \
-                        -Dsonar.sources=. \
-                        -Dsonar.host.url=http://52.77.235.96:9000
+                        -Dsonar.sources=.
                     '''
                 }
             }
